@@ -4,7 +4,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("..//img/shoes1.jpg");                                                                 
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("..//img/shoes6.jpg");                                                                 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ section .btn2:hover{
     color: black;
 }
 footer{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("..//pink.png"); 
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("..//img/pink.png"); 
     background-size: cover;
     margin-top: 0%;
 }
@@ -236,5 +236,12 @@ img{
 .hth{
   background: black;
   display: flex;
-  padding-bottom: 3rem;
+  padding: 3rem;
+}
+.hth2{
+  margin-left: 30%;
+}
+.hth2 p{
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
 }

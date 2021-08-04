@@ -15,7 +15,7 @@
                 <a href="./contact.html">Contact</a>
             </div>
         </nav>
-        <main>
+        <main style="background: black;">
             <div action="text" style="text-align: center;background-color: black;background-size: 20px;margin-left: 25%; margin-right: 25%;border-radius: 1rem;">
                 <h1 style="color: crimson; font-size: 2rem;">G<span
                         style="color: white;font-size: 1.5rem;">alla</span>ry..
@@ -28,9 +28,60 @@
                 </div>
             </div>
         </main>
-    </header>
-</body>
+        <!--  -->
+   
+        <main style="background-color: black;">
+            <div action="text" style="text-align: center;background-color: black;background-size: 20px;margin-left: 25%; margin-right: 25%;border-radius: 1rem;">
+                <h1 style="color: crimson; font-size: 2rem;">Off -<span
+                    style="color: white;font-size: 1.5rem;text-align: center;"> 20</span>%
+            </h1>
+                <div class="images" style="padding: 2rem;">
+                    <img src="./img/shoes3.jpg">
+                    <img src="./img//shoes5.jpg">
+                    <img src="./img/shoes9.jpg">
+                    <img src="./img/shoes7.jpg">
+                </div>
+                <div class="images" style="padding: 2rem;">
+                    <img src="./img/shoes13.jfif">
+                    <img src="./img//shoes12.jfif">
+                    <img src="./img/shoes20.jfif">
+                    <img src="./img/shoes17.jfif">
+                </div>
+                <div class="images" style="padding: 2rem;">
+                    <img src="./img/shoes13.jfif">
+                    <img src="./img//shoes15.jfif">
+                    <img src="./img/shoes18.jfif">
+                    <img src="./img/shoes17.jfif">
+                </div>
+                <div class="images" style="padding: 2rem;">
+                    <img src="./img/shoes13.jfif">
+                    <img src="./img//shoes14.jfif">
+                    <img src="./img/shoes21.jfif">
+                    <img src="./img/shoes9.jpg">
+                </div>
+            </div>
+        </main>
 
+    </header>
+   
+</body>
+<footer>
+<div class="hth">
+    <h style="color: white;">_____<span style="color: crimson;font-size: 2rem;font-weight: bold;">Con</span><span
+        style="font-size: 1.5rem;color: white;">tact...__</span></h>
+    <div class="hth2">
+      <p style="color: crimson;">Whatsapp- <a
+          href="https://api.whatsapp.com/send?phone=919340435924text=welcome%20to%20my%20what"><span
+            style="color: white;">9340435924</span></a>
+      <p style="color: crimson;">Email- <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Your+Subject+here&body='+msgbody+'&ui=2&tf=1&pli=1"><span
+            style="color: white;">visshku122@gamil.com</span></a></p>
+      <p style="color: crimson;">Facebook- <a href="https://www.facebook.com/"><span
+            style="color: white;">vishesh/fb.com</span></a></p>
+      <p style="color: crimson;">Twitter- <a href="https://twitter.com/?lang=en"><span
+            style="color: white;">vishesh/twitter.com</span></a></p>
+    </div>
+</footer>
 </html>
 
 <!--  style sheet -->
@@ -58,7 +109,7 @@
         width: 100%;
         height: 10vh;
         /* background: rgba(red, green, blue, alpha); */
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(255, 99, 71, 0.2);
         color: black;
         display: flex;
         justify-content: space-between;
@@ -74,7 +125,8 @@
     header {
         width: 100%;
         height: 150%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//img/shoes6.jpg");
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//img/shoes6.jpg"); */
+        background: black;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -88,14 +140,36 @@
     }
     .images{
      /* display: flex; */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//img/shoes6.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/shoes6.jpg");
+        height: 40%;
     }
     .images img{
      height: 60%;
      width: 40%;
-     background: black;
+   
+     padding-left: 1rem;
      
-     
-
     }
+    
+.hth{
+  background: black;
+  display: flex;
+  padding: 3rem;
+  margin-top: auto !important;
+}
+.hth2{
+  margin-left: 30%;
+}
+.hth2 p{
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+.mySlides fade img{
+  width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+} 
+footer{
+    margin-top: 104.4%;
+}
 </style>

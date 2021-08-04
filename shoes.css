@@ -96,7 +96,6 @@ section .btn2:hover{
     color: black;
 }
 footer{
-     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./img/shoes6.jpg");  
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("./img/pink.png"); 
     background-size: cover;
     margin-top: 0%;
@@ -256,5 +255,6 @@ video{
   width: 80% !important;
   height: auto !important;
   margin-left: 10%;
+  
 
 }

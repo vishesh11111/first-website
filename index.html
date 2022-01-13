@@ -38,6 +38,7 @@
         }
         #parent{
             margin: 20px;
+            
             /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
         }
         h4{
@@ -86,7 +87,7 @@
             /* margin: 10px; */
             /* margin: 0px; */
         }
-        @media only screen and (min-width: 310px) and (max-width: 720px) {
+        @media only screen and (min-width: 350px) and (max-width: 720px) {
             #container{
             /* background-color: red; */
             display: grid;
@@ -111,6 +112,62 @@
             font-size: 20px;
         }
       
+      }
+      @media only screen and (min-width: 0px) and (max-width: 350px) {
+            #container{
+            /* background-color: red; */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: auto;
+            margin-top: 0px;
+            width: 100%;
+            grid-gap: 20px;
+        }
+        .c-1 {
+            width: 65%;
+            display: flex;
+            /* border: 2px solid black; */
+            justify-content: space-between;
+            color: white;
+        }
+        .c-1>div {
+            cursor: pointer;
+            font-size: 15px;
+            padding: 3px;
+        }
+        .p1 {
+            font-size: 20px;
+        }
+        #parent{
+            margin: 20px;
+            height: 150px;
+            width: 100%;
+            
+        }
+        h4{
+            margin: 0px;
+            font-size: 10px;
+        }
+        #fr2{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-around; 
+            margin: 0px;
+            height: 25px;
+        }
+        #fr2 > p{
+            font-size: 10px;
+            font-weight: bold;
+        }
+        #btn{
+            border: 1px solid crimson;
+            background-color: white;
+            cursor: pointer;
+            margin-left: 26px;
+            border-radius: 3px;
+            padding: 5px;
+            font-size: 11px;
+        }
       }
          
     </style>
